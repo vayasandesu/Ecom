@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "lacia-project-deal",
+  "private_key_id": "a6734c956e9457dfb51f72782c358e369fe46091",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDcw5lnPHyuIIUy\nP/8jUAba/dZvNmel7OyFniXYp2t2/8JEgtFtHWF7SCnFof/FjjK/4c/lYxxQjLmb\n3uihzplo3QWALsRUIZUkOx/23JoHx0z0YtikU4N83W7PAnYFRDpgx5VdEjpRTDaU\nQhdfs/PP5kvFvshOm8kmVnsly9v6GYj+VH3o96tyaQUT4+HmGuhWfX0eBNnYErRI\nMFN6uhPC57zgs6d6hFc/LLEGz/vR13CluiDQq5cVRLHmTIjSx9Xqy4a8Xhi0GUbs\nIMbxIrA68GD2mDv2erOHwtcped6n0eeMUfYziugvIvbqP5zQS8mN/qHaylr5DMK1\nSd6KJME9AgMBAAECggEAJ1WelptbZ7cZpGtsrUEMB6bktyoNa638Mo6MFb820Zwe\nZBCe+f8bKFkiQDluFigQ+MlmPmvbVqrMQ26DKpliEiIXYdBzYL4fEbaLKnQB6dLj\n7kNScG0E55GYtb+tgaC3ehj1jwC5bVTUALSJ755jma5h39jvXbo6K9+Kz6A0EKp5\nPtM1ZSYVhDC6gx0vYzUHqxOe29dN2MPqZrEsGFM3P7iIlxNDreU7ZEDX08HQA5h3\nL6NYT67oQi75gKGV3ACDcIuQZ4X2tVBeqr8Z18Q3SULEIF25NmK1P+Nbt01RVUUX\nVZTBcU7BKOsezcFld6AbntnDlQIysgHX0Dv6jzbiQQKBgQD6X62m6Z9MW4ZA9NZt\nIHFGxIlSUCksDWUsUal6EKHyLFbWVECYr/LFiC47HDHYTmS+OltzKDFt8E9+2834\nSjUiWM0i/cdqM+DeIOe7P57BeFDIzvz3cIPoPBJzPi2ZWVS4tiUd30jwftYqg4ew\nKdJx9B+kpC/WSldkyoh3lcpgDQKBgQDhuZXumeUa954bwLNiN17PJYk54JleCGAo\n3iKkU66DbxCTbGwoQ0fxqb9A6hPZxqef+sJowItZl9p7SZDylYsmbQfclaZDnjW8\nMCQ6N8XxZwxN4A08JWo6obmmkubiAKErAdg98WDvYwkgevio0ZW0qr5hJTOBrKhk\nYfrNYGdp8QKBgBl2a4mjDsFMOY4XmEsG1p5U1IZbgqRpRFXKhErWsDGZ0sb/UIZ2\ntmDiZZk7V9JgvpweATjn6Ib+vobvQbYzjc3NbCdX2dTyK7dLb2W6paGVY9nYOx/L\nAI84tMOlmiuTSytx0rqD/739mDhAoicHSdCu/BzZWcgYTWUBt/k5cZhtAoGATewj\nNhsqXATfL/V195HlyNzMYo6GY0/A4lrM2q2IsRbGQh5LuBqB24sd2urzr1pEw5Vt\nR3wwnt0tLyJWR2gYgUtiS2Pd4bncEvsLho16Z7uLI9cUuo6v/U2XKUnNKnfNK2uX\nmsqZDArEO9I3xQ+U/qlyz1ZoUXupJf4s9nkxOgECgYBqx6KmeW74IwYum4BFLenD\nxktwKXFfVCu03Rt0CjxErQyqpygKs2+JimwBLzXjdwRXdzgCtGKzY29yY8i63M5c\nq4UdCqRgGctKfyuxFIt83rXDG4uRRziY58JjcKMmuY+rFAMsFcqlKyJK6NEjGX0S\nSTxi0oI2QOXIUymgU34jrA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-iwtgw@lacia-project-deal.iam.gserviceaccount.com",
+  "client_id": "115263484522414611010",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-iwtgw%40lacia-project-deal.iam.gserviceaccount.com"
+}
