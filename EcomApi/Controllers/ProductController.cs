@@ -35,6 +35,10 @@ namespace EcomApi.Controllers {
 		/// <returns></returns>
 		[HttpGet("{id}")]
 		public Product Get(string id) {
+			return QueryProduct(id);
+		}
+
+		public static Product QueryProduct(string id) {
 			var database = Firebase.Database;
 			var snap = database.Collection($"Products").Document(id);
 			var doc = snap.GetSnapshotAsync().Result;
