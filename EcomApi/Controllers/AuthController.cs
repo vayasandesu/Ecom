@@ -2,9 +2,6 @@
 using EcomApi.Models;
 using Google.Cloud.Firestore;
 using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
 
 namespace EcomApi.Controllers {
 
@@ -46,9 +43,7 @@ namespace EcomApi.Controllers {
 				return $"Username {username} already exist.";
 			} else {
 				var collection = firebase.Collection("Users");
-				var json = JsonConvert.SerializeObject(user);
-				var data = JsonConvert.DeserializeObject<Dictionary<string, object>>(json);
-				var snap = collection.AddAsync(data).Result;
+				var snap = collection.AddAsync(user).Result;
 
 				return $"Welcome to system [{username}].";
 			}
@@ -57,8 +52,9 @@ namespace EcomApi.Controllers {
 
 		private bool IsUserExist(FirestoreDb db, string username) {
 			var collection = db.Collection("Users");
-			var snap = collection.WhereEqualTo("Username", username).GetSnapshotAsync().Result;
-			Console.WriteLine("Found " + snap.Count + "docs");
+			var snap = collection.WhereEqualTo("Username", username)
+				.GetSnapshotAsync().Result;
+			
 			return snap.Count > 0;
 		}
 

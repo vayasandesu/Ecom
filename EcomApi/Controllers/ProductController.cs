@@ -24,7 +24,7 @@ namespace EcomApi.Controllers {
 			var collection = database.Collection("Products");
 			var snaps = collection.GetSnapshotAsync().Result;
 
-			return snaps.Select(doc => Product.Parse(doc));
+			return snaps.Select(doc => doc.ConvertTo<Product>());
 
 		}
 
@@ -42,7 +42,7 @@ namespace EcomApi.Controllers {
 			var database = Firebase.Database;
 			var snap = database.Collection($"Products").Document(id);
 			var doc = snap.GetSnapshotAsync().Result;
-			return Product.Parse(doc);
+			return doc.ConvertTo<Product>();
 		}
 
 		/// <summary>
@@ -55,7 +55,7 @@ namespace EcomApi.Controllers {
 			var database = Firebase.Database;
 
 			var collection = database.Collection($"Products");
-			var result = collection.AddAsync(Product.ToDictionary(value)).Result;
+			var result = collection.AddAsync(value).Result;
 
 			return result.ToString();
 		}
